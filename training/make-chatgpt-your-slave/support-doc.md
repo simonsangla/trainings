@@ -142,3 +142,55 @@ Long threads accumulate stale role definitions, contradictory instructions, and 
 ### 6. Show, don't just tell
 
 Examples beat adjectives. Instead of "make it punchy", paste a punchy example and say "in this style". Instead of "professional tone", paste two professional emails. The model learns formats from examples faster than from descriptions.
+
+---
+
+## Module 4 — You Are the Boss
+
+The provocation in the title is not about disrespecting the model. It's about killing passivity.
+
+"It gave me a bad answer" is a phrase used by someone who thinks the model has agency. It doesn't. You do.
+
+Delegate like a manager:
+
+- **Brief clearly.** Role, task, context, format. Every time.
+- **Set acceptance criteria.** What does "done" look like? Length, depth, must-include, must-avoid.
+- **Iterate.** Read the output critically. Identify the one or two things that are off. Restate and regenerate.
+- **Close the loop.** When the output is good, capture the winning prompt. Reuse it.
+
+"Make ChatGPT your slave" means: own the direction. Stop asking the model what it thinks you should ask. Tell it exactly what you need and what "good" looks like.
+
+---
+
+## Appendix — CO-STAR for Power Users
+
+Once RTF + Context feels automatic, graduate to CO-STAR. Developed by a Singaporean data scientist who won Singapore's first GPT-4 Prompt Engineering Competition.
+
+- **C**ontext — background the model needs.
+- **O**bjective — the specific goal.
+- **S**tyle — writing style (e.g. business, academic, tabloid).
+- **T**one — emotional register (e.g. formal, playful, urgent).
+- **A**udience — who will read or use the output.
+- **R**esponse — the exact output format.
+
+Use CO-STAR for high-stakes or customer-facing prompts where tone and audience fit matter as much as content.
+
+---
+
+## Glossary
+
+- **Token** — chunk of text the model processes. About ¾ of a word on average.
+- **Context window** — maximum tokens the model can consider at once. Everything outside is invisible to it.
+- **Hallucination** — the model producing confident, plausible, but false output.
+- **Prompt** — the input you give the model. Includes role, task, context, and format.
+- **Thread** — the full conversation history in one chat session.
+- **System prompt** — hidden instructions set before the conversation starts (not all interfaces expose this).
+- **Agreement bias** — the model's tendency to concede to the user rather than push back.
+
+---
+
+## Further Reading
+
+- OpenAI official prompt engineering best practices: https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt
+- CO-STAR framework: https://portkey.ai/blog/what-is-costar-prompt-engineering/
+- CLEAR framework (Texas A&M): https://guides.library.tamucc.edu/prompt-engineering/clear
