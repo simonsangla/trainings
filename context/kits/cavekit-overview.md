@@ -11,10 +11,12 @@ trainings — a repository of interactive trainings. First training: "Make ChatG
 ## Domain Index
 | Domain | File | Summary | Status |
 |--------|------|---------|--------|
+| training-chatgpt-slave | cavekit-training-chatgpt-slave.md | 90-minute hands-on training that teaches a realistic LLM mental model, the RTF + Context prompt formula, chat best practices, and limits/ethics; ships as a slide deck, master support doc, facilitator guide, two-sided cheat sheet, two exercises, feedback form, and an async-distribution notebook. | DRAFT |
 
 ## Cross-Reference Map
 | Domain A | Interacts With | Interaction Type |
 |----------|---------------|-----------------|
+| training-chatgpt-slave | (none yet) | n/a — single-domain project |
 
 ## Dependency Graph
-No domains defined yet. Run `/ck:sketch` to create kits.
+Single domain. No inter-domain dependencies yet.
