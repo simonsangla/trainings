@@ -113,4 +113,4 @@ Pick one. Rewrite with RTF + Context. Run both. Compare.
 ## Slide 20 — Wrap
 
 **Headline:** You are the boss. Go give better orders.
-**Body:** NotebookLM link: [placeholder URL]. Questions?
+**Body:** NotebookLM link: https://notebooklm.google.com/notebook/977f6c56-73d1-4c8a-b873-de51c86634d7. Questions?
