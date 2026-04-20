@@ -36,3 +36,25 @@ Rule: plausibility is not truth. If the answer could damage something when wrong
 ### One-sentence takeaway
 
 **It predicts plausible text. Plausible is not the same as true.**
+
+---
+
+## Module 1.5 — Limits and Ethics
+
+Four rules. Non-negotiable.
+
+### 1. Assume it hallucinates
+
+Facts, citations, statistics, and quotes may be invented. The model has no mechanism to say "I don't know" unless trained or prompted to. Treat every load-bearing fact as suspect until you've checked a primary source.
+
+### 2. Never paste sensitive data
+
+Do not put client data, personally identifiable information, passwords, credentials, or confidential documents into consumer ChatGPT. Use your organization's approved enterprise tooling for anything sensitive. When in doubt, treat the prompt box as public.
+
+### 3. Ownership and licensing
+
+Outputs are yours to use, but originality is not guaranteed. For public-facing work — marketing, publishing, client deliverables — check for unintentional paraphrasing of existing material.
+
+### 4. The fact-check rule
+
+If the answer could cause real damage when wrong — legal, medical, financial, client-facing, regulatory — verify from a primary source before using. No exceptions.
