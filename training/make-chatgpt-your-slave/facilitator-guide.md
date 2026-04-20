@@ -13,8 +13,9 @@ This guide layers delivery on top of `support-doc.md`. It does not repeat the wr
 - [ ] Slides loaded on the projector (`slides/slides.pptx`).
 - [ ] Cheat sheets printed double-sided, one per participant.
 - [ ] ChatGPT open in a tab on the demo machine, signed in.
-- [ ] Pre-recorded demo clips ready as fallback (in case of outage or rate-limit).
-- [ ] NotebookLM link ready to share in the wrap slide.
+- [ ] Screenshots of good/bad prompt outputs saved locally as an outage fallback (narrate from the images if ChatGPT is unreachable).
+- [ ] NotebookLM notebook generated from `support-doc.md` ahead of time. Notebook URL pasted into slide 20 wrap text and into the closing script below. Test the share link works.
+- [ ] Feedback form (`assets/feedback-form.md`) printed or linked as a short digital form.
 - [ ] Timer visible (your watch, phone, or on-screen).
 
 ---
@@ -120,7 +121,7 @@ A: Assume every fact could be. Verify anything load-bearing. Watch especially fo
 
 ## Troubleshooting
 
-**Demo fails / rate limit / outage:** use the pre-recorded demo clip. Don't apologize at length — just pivot.
+**Demo fails / rate limit / outage:** switch to the screenshot fallback you prepared in the pre-session checklist. Narrate what the prompt would have produced. Don't apologize at length — just pivot.
 
 **A participant dominates:** acknowledge them, then explicitly invite quieter voices. "Let's hear from someone who hasn't spoken yet."
 

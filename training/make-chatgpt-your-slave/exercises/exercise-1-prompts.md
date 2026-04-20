@@ -19,7 +19,7 @@
 
 ### Option B — Meeting summary
 
-> Summarize this meeting. [Participants paste a meeting transcript of their choice, or use the sample on the following slide.]
+> Summarize this meeting. [Participants paste a meeting transcript of their choice — a real one from their own calendar (redact sensitive content) or a fabricated short one they invent on the spot.]
 
 ### Option C — Launch brainstorm
 

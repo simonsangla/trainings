@@ -64,12 +64,16 @@
 ## Slide 11 — Before / After
 
 **Headline:** Watch the difference.
-**Visual:** one-line prompt vs RTF+Context prompt, outputs side by side.
+**Visual:** one-line prompt vs RTF + Context prompt, outputs side by side.
 
 ## Slide 12 — Exercise 1
 
 **Headline:** Your turn. Pairs. 15 minutes.
-**Body:** Pick a weak prompt. Rewrite with RTF + Context. Run both. Compare.
+**Body:**
+Pick one. Rewrite with RTF + Context. Run both. Compare.
+- **A — Status email:** "Write me an email about the project status."
+- **B — Meeting summary:** "Summarize this meeting." (paste a redacted or fabricated transcript)
+- **C — Launch brainstorm:** "Give me ideas for the product launch."
 
 ## Slide 13 — Best Practices (1/2)
 
