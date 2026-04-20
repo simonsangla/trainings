@@ -58,3 +58,47 @@ Outputs are yours to use, but originality is not guaranteed. For public-facing w
 ### 4. The fact-check rule
 
 If the answer could cause real damage when wrong — legal, medical, financial, client-facing, regulatory — verify from a primary source before using. No exceptions.
+
+---
+
+## Module 2 — The RTF + Context Formula
+
+RTF — Role, Task, Format — is the established beginner framework for structured prompts. Add Context and you have a working prompt that beats 95% of what people type.
+
+### Role
+
+Who the model should be. The role defines voice, vocabulary, and priorities.
+
+Bad: "Help me write something."
+Good: "You are a senior B2B copywriter with seven years of experience in SaaS. You write direct, short-sentence prose and you hate jargon."
+
+### Task
+
+What it should actually do. One action, unambiguous.
+
+Bad: "Make my LinkedIn better."
+Good: "Rewrite the LinkedIn post below so it opens with a concrete claim and ends with one sharp question."
+
+### Context
+
+What the model needs to know to do the task well. Audience, constraints, prior attempts, product facts, tone, red lines.
+
+Good: "The audience is CTOs at mid-market fintechs in Europe. Our product is a compliance automation tool that cuts audit prep time by 60%. Do not use the words 'leverage', 'synergy', or 'unlock'."
+
+### Format
+
+How to deliver. Length, structure, layout, tone markers.
+
+Good: "Return three variants. Each under 280 characters. Use line breaks between sentences. End each variant with a single question mark."
+
+### Before and after
+
+**Before:**
+> Write me a LinkedIn post about our product.
+
+**After:**
+> You are a senior B2B copywriter with experience in SaaS. Rewrite the LinkedIn post below so it opens with a concrete claim and ends with one sharp question. Audience: CTOs at mid-market fintechs. Product: compliance automation tool that cuts audit prep by 60%. Avoid the words "leverage", "synergy", "unlock". Return three variants, each under 280 characters, line breaks between sentences.
+
+### Rule of thumb
+
+If your prompt fits on one line, it is almost certainly too thin. The cost of a longer prompt is thirty seconds of typing. The cost of a bad output is however long you waste arguing with the model.
