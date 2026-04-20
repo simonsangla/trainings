@@ -28,11 +28,13 @@ When content changes, edit `support-doc.md` first. Then propagate:
 
 ## NotebookLM Distribution
 
-Feed `support-doc.md` into a NotebookLM notebook. Generate:
+**Notebook:** https://notebooklm.google.com/notebook/977f6c56-73d1-4c8a-b873-de51c86634d7
+
+Fed from `support-doc.md`. Async artifacts generated:
 - Audio overview (podcast-style recap)
 - Video overview
 - Study guide (Q&A)
 - Mind map
 - Briefing doc
 
-Share the NotebookLM link in the session wrap slide and post-session email.
+Share link appears in the session wrap (slide 20) and the post-session email.

@@ -90,7 +90,7 @@ Walk through side A quickly. Flip to side B, land CO-STAR as the "next level" fo
 **Closing line:**
 > "You are the boss. The model is the worker. Bad orders equal bad work. Go give better orders."
 
-Share the NotebookLM link. Pass the optional feedback form.
+Share the NotebookLM link: https://notebooklm.google.com/notebook/977f6c56-73d1-4c8a-b873-de51c86634d7 (audio overview, video, study guide, mind map, briefing doc — all generated from `support-doc.md`). Pass the optional feedback form.
 
 ---
 
