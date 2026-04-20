@@ -102,3 +102,43 @@ Good: "Return three variants. Each under 280 characters. Use line breaks between
 ### Rule of thumb
 
 If your prompt fits on one line, it is almost certainly too thin. The cost of a longer prompt is thirty seconds of typing. The cost of a bad output is however long you waste arguing with the model.
+
+---
+
+## Module 3 — Chat Best Practices
+
+Six rules. Learn them once, use them every day.
+
+### 1. The first prompt is load-bearing
+
+Everything downstream rests on it. The role, the task framing, the constraints, the tone — the whole thread inherits from prompt one. Invest thirty extra seconds here and you save ten minutes later.
+
+### 2. Don't scold — restate
+
+When the output is wrong, the wrong move is:
+
+> No, that's wrong. Do it again.
+
+This fights the model's agreement bias without fixing the underlying input. The model will apologize, then produce a slightly different version of the same problem.
+
+The right move:
+
+> My instruction was not clear. Here is what I actually need: [clearer version].
+
+Treat the model like a junior employee who did exactly what you asked. The fix is always upstream, in the request.
+
+### 3. Garbage in, garbage out
+
+If the answer is bad, nine times out of ten the prompt is the cause. Before blaming the model, reread what you actually wrote. You will be surprised how often the ambiguity is obvious in hindsight.
+
+### 4. Edit upstream, not downstream
+
+Most chat interfaces let you edit your original message and regenerate. Use this. Adding "actually wait, I meant" to a long thread piles bad context on top of bad context. Editing the first prompt gives you a clean retry.
+
+### 5. Start fresh when the thread drifts
+
+Long threads accumulate stale role definitions, contradictory instructions, and half-applied corrections. When you notice the output getting worse instead of better, start a new thread with a strong first prompt. A clean thread beats a twenty-turn argument almost every time.
+
+### 6. Show, don't just tell
+
+Examples beat adjectives. Instead of "make it punchy", paste a punchy example and say "in this style". Instead of "professional tone", paste two professional emails. The model learns formats from examples faster than from descriptions.
